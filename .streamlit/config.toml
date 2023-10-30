@@ -1,0 +1,16 @@
+[theme]
+primaryColor = "#333333"
+backgroundColor = "#ffffff"
+textColor = "#000000"
+secondaryBackgroundColor = "#fffb19"
+
+font = "monospace"
+
+[server]
+runOnSave = true
+
+[runner]
+magicEnabled = true
+
+[layout]
+wideMode = true
