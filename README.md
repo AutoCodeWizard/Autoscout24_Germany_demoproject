@@ -37,7 +37,8 @@ code --install-extension ms-toolsai.jupyter
 
 ## Über das Autoscout24_Germany_demoproject
 
-Dieses Projekt dient der Analyse und Visualisierung von Daten von Autoscout24.de. Es wird hauptsächlich für Datenwissenschaftliche Zwecke verwendet.
+Dieses Projekt dient der Analyse und Visualisierung von Daten von Autoscout24.de. \
+Es wird hauptsächlich für Datenwissenschaftliche Zwecke verwendet.
 
 ### Verwendete Technologien
 
