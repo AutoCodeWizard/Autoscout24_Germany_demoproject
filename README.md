@@ -56,7 +56,7 @@ git clone https://github.com/AutoCodeWizard/Autoscout24_Germany_demoproject.git
 ```bash
 cd Autoscout24_Germany_demoproject
 ```
-
+### weiter im Container mit Docker (optional, siehe unten) oder:
 ### Erstellen Sie eine virtuelle Umgebung: 
 ```bash
 python -m venv venv
