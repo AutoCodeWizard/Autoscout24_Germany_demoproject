@@ -33,6 +33,7 @@ Um die Erweiterungen zu installieren, können Sie den Extension Marketplace in V
 ```bash
 code --install-extension ms-python.python
 code --install-extension ms-toolsai.jupyter
+code --install-extension ms-azuretools.vscode-docker
 ```
 
 ## Über das Autoscout24_Germany_demoproject
@@ -98,19 +99,19 @@ streamlit run app.py
 
 Wenn Sie Docker installiert haben, können Sie die Anwendung auch in einem Docker-Container ausführen.
 
-1. Bauen Sie das Docker-Image:
+1. Öffnen Sie ein Terminal und navigieren Sie zu Ihrem Projektverzeichnis:
 
     ```bash
-    docker build -t autoscout24_germany_demo .
+    cd Autoscout24_Germany_demoproject
     ```
 
-2. Starten Sie den Docker-Container:
+2. Führen Sie den folgenden Befehl aus, um Ihr Docker-Image zu erstellen und den Container zu starten:
 
     ```bash
-    docker run -p 8501:8501 autoscout24_germany_demo
+    docker-compose up --build
     ```
-
-    Die Streamlit-App sollte jetzt unter `http://localhost:8501` erreichbar sein.
+    Das kann beim ersten Mal etwas dauern, da das Docker-Image erst erstellt werden muss. \
+    Die Streamlit-App sollte danach unter `http://localhost:8501` erreichbar sein.
 
 ## Beiträge
 
